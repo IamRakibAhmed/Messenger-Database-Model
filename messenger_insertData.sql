@@ -68,12 +68,12 @@ INSERT INTO deleted_conversations(conversationID, Username, ID, delete_time)
 VALUE(1, 'rakib', 1, '2020-2-11 13:13:17'),
 (2, 'rakib1', 2, '2020-2-20 21:13:17');
 
-INSERT INTO friends(UserID, friendID, First_Name, Last_Name, friendship_date)
-VALUES (1, 1, 'Rakib', 'Ahmed', '2010-7-12'),
-(2, 2, 'Rakib', 'Ahmed', '2010-9-22'),
-(3, 3, 'Ahmed', 'Rakib', '2010-3-15'),
-(4, 4, 'Faisal', 'Hossain', '2010-5-22'),
-(5, 5, 'Faisal', 'Hossain', '2010-11-28');
+INSERT INTO friends(UserID, friendID, friendship_date)
+VALUES (1, 1, '2010-7-12'),
+(2, 2, '2010-9-22'),
+(3, 3, '2010-3-15'),
+(4, 4, '2010-5-22'),
+(5, 5, '2010-11-28');
 
 INSERT INTO messages(messageID, friendID, conversationID, message, media, last_seen, isDelivered, sending_time, Recieving_time)
 VALUES (1, 1, 1, 'hi, how are you?', null, '2020-4-20 13:13:17', 1, '2020-1-15 13:13:17', '2020-1-15 13:14:17'),
