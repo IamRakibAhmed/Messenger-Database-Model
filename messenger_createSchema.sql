@@ -35,8 +35,6 @@ CREATE TABLE Activity_Sessions (
 CREATE TABLE Friends (
 	UserID INT NOT NULL,
 	friendID INT NOT NULL AUTO_INCREMENT,
-	First_Name varchar(20) NOT NULL,
-	Last_Name varchar(20) NOT NULL,
 	friendship_date DATE NOT NULL,
 	PRIMARY KEY (friendID)
 );
